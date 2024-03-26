@@ -1,0 +1,44 @@
+@use '../../style' as s;
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	background-color: rgba(53, 54, 58, 1);
+	width: 1200px;
+	padding: 16px 40px;
+	border-radius: 100px;
+}
+
+.remote__links {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 40px;
+}
+
+.icons {
+	display: flex;
+	gap: 40px;
+}
+
+.input {
+	background-color: rgba(32, 33, 36, 1);
+	border-radius: 100px;
+	display: block;
+	width: 700px;
+	height: 60px;
+	padding: 16px 40px;
+	font-size: 32px;
+	color: white;
+}
+
+.link {
+	&:hover {
+		opacity: 0.7;
+		transition-duration: 0.7s;
+	}
+}
